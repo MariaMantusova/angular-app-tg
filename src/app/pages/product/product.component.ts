@@ -33,7 +33,7 @@ export class ProductComponent implements OnInit, OnDestroy {
   }
 
   goBack() {
-    this.router.navigate([''])
+    this.router.navigate(['/'])
   }
 
   ngOnInit(): void {
